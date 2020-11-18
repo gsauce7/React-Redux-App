@@ -6,7 +6,7 @@ body {
   place-items: center;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 .app {
   text-align: center;
@@ -15,7 +15,7 @@ body {
   justify-content: center;
   align-content: center;
   color:black;
-  font-family: 'Lobster', cursive;
+  font-family: 'Poppins';
 }
 .app h1{
   font-size: 3rem;
@@ -46,7 +46,7 @@ button {
   cursor: pointer;
   outline: none;
   -webkit-appearance: none;
-  font-family: 'Lobster', cursive;
+  font-family: 'Poppins';
 }
 
 /* 

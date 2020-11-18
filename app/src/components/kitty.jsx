@@ -16,11 +16,11 @@ const Kitty = (props) =>{
          src={props.catImage}
           />
         {!props.catImage&& !props.isLoading && (
-          <h2>Ready to put a smile on your face?</h2>
+          <h2>Do you love kitties?</h2>
         )}
         {props.isLoading && (
           <Loader
-            type="Puff"
+            type="ThreeDots"
             color="#FF3333"
             height={80}
             width={80}
@@ -29,7 +29,7 @@ const Kitty = (props) =>{
         )}
         {props.catImage && !props.isLoading && <h2>{props.catImage.activity}</h2>}
 
-        <button onClick={props.fetchActivity}>Show me the kitties!</button><br/>
+        <button onClick={props.fetchActivity}>Show Kitty!</button><br/>
       </div>
     )
 }
